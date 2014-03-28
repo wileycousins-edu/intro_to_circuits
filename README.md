@@ -19,3 +19,5 @@ This list will grow as the class progresses. My apologies if it is only Wikipedi
 * http://en.wikipedia.org/wiki/Kirchhoff's_circuit_laws
 * http://en.wikipedia.org/wiki/Ohms_law
 
+## thanks
+Thanks to Mike Mitterer, whose [Fritzing multimeter](https://github.com/MikeMitterer/fritzing-multimeter) is used in the fritzing circuits for this class.
