@@ -109,11 +109,11 @@ Generally, after you build a circuit, you should check to make sure your two pow
 
 ![multimeter power rail continuity check](multimeter_rail-test-2.jpg "seriously though, power should never be directly connected to ground")
 
-### measuring voltage
+### measuring voltage (learned in lesson 1)
 
-### measuring current
+### measuring current (learned in lesson 1)
 
-### measuring resistance
+### measuring resistance (learned in lesson 1)
 
 ## all is well
 You should be good to go, so go ahead and get started with [lesson1](../lesson1)
