@@ -6,12 +6,19 @@ the presentation used for this class is available in [PDF form](lesson1.pdf) as 
 
 Circuits referenced in that presentation are available in this directory. Each circuit has three files:
 
-* circuit_1-N_schem.png - the circuit schematic
+* `circuit_1-N_schem.png` - the circuit schematic
     * you should try to build your breadboard circuit from this schematic
-* circuit_1-N_bb.png - an example breadboard layout for the circuit
+* `circuit_1-N_bb.png` - an example breadboard layout for the circuit
     * use this is you are having trouble translating schematic to breadboard
     * there is no one right answer; your solution could and probably will look completely different that this
-* circuit_1-N.fzz - [fritzing](http://fritzing.org/) file for the circuit
+* `circuit_1-N.fzz` - [fritzing](http://fritzing.org/) file for the circuit
     * this is what the schematic and breadboard files are generated from
     * you can play around with circuit changes here in both schematic and breadboard mode
-    
+
+## circuit list
+where the electrons live
+
+### circuit 1-1
+A resistor hooked to a power supply. The voltage difference applied across the resistor causes a current to flow through the resistor. This current is determined by Ohm's law:
+
+![ohm's law](http://www.sciweavers.org/tex2img.php?eq=i%3D%20%5Cfrac%7BV%7D%7BR%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0 "ohm my god an equation")
