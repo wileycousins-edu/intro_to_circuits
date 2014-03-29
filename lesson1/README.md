@@ -1,5 +1,5 @@
 # intro to circuits lesson 1
-what is all this electricity business about?
+what's all this electricity business about?
 
 ## lesson materials
 the presentation used for this class is available in [PDF form](lesson1.pdf) as well as [Google Drive form](https://docs.google.com/presentation/d/15GSJ7vIjcBHzid15Rd07gUInJye-16uV2sa6j8g2wJ4/edit?usp=sharing)
