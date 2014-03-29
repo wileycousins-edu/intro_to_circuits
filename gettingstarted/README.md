@@ -33,13 +33,37 @@ Now, insert the wire into the hole labeled "22" or a close number, close the str
 
 ![stripped wire](wire_post-strip "nor, weirdly enough, Christina Aguilera")
 
-Finally, use the pliers built into the stripper to bend the ends of the wire, so you end up with a wire that can be easiely plugged into a breadboard.
+Finally, use the pliers built into the stripper to bend the ends of the wire, so you end up with a wire that can be easily plugged into a breadboard.
 
 ![bent wire](wire_bent.jpg "yup, it's wire")
 
 ![wire in breadboard](wire_breadboard.jpg "yup, it's in the breadboard")
 
 Look how neat and tidy that is. You'll thank me later. Maybe. Or you'll throw a bunch of tiny wires at me.
+
+## components
+You were given a lot of components. You don't need to know what they all do quite yet, but you should endeavor to keep them at least somewhat organized. A little sectioned box will make your life a lot happier.
+
+Also, a lot of your components have very longs legs. These long legs will get in your way while building circuits, so I will usually make you cut them down before putting them in the breadboard. You can use you wire strippers for this. Here is the difference between a cut and uncut part in the breadboard:
+
+![why you should cut your part legs](parts_legs.jpg "cut it out")
+
+## your power source
+In this class, we'll use an Arduino microcontroller board as a power supply. We'll also end up using it as a primitive oscilloscope. For now, let's get it set up on a breadboard.
+
+The Arduino board takes power over USB from your computer. This gives us a nice source of electricity to work with. Connect a wire from the pin of the Arduino labeled either "VCC" or "5V", and connect it to a red power rail on your breadboard. This will be our positive voltage source. If you have an Arduino that can be inserted right into a breadboard, do that, and then run the connection from a breadboard hole in that row to the power rail. It will look something like this:
+
+![power rail positive connection](rail_positive.jpg "Be positive")
+
+Now, look for a pin labeled "GND". You might have several; any will work. Connect a "GND" pin to the blue power rail. This will be our negative power source, or as we'll call it, our ground. We've effectively connected two ends of a 5V battery to our two voltage rails. Now, whenever we need to plug something into power or ground, we can do it at any point along the breadboard.
+
+![power rail both connections](rail_positive.jpg "Be positive and negative simultaneously")
+
+Since it's voltage differences between points that matter, much like defining sea-level as zero altitude, we will define the voltage level at ground to be our zero. We will actually learn about this in Lesson 1.
+
+Now would be a good time to plug your Arduino into your computer and confirm that its power light comes on. If not, make sure that everything is plugged in correctly. If it does look like it and it still doesn't work, ask your teacher.
+
+![arduino on](arduino_on.jpg "it's on like Donkey Kong")
 
 ## your multimeter
 Your multimeter will be your most valuable tool. It is called a multimeter because it is a meter of multiple things. We'll be using it for four measurements:
@@ -49,7 +73,7 @@ Your multimeter will be your most valuable tool. It is called a multimeter becau
 * voltage
 * current
 
-We'll learn about them as class goes on. For now, we will set up the meter and learn how to test continuity.
+We'll learn about them as class goes on. For now, we will set up the meter and learn how to test continuity. We'll also show how to measure resistance, voltage, and current, but those sections are better off skipped until after lesson 1, and are here so you can come back and review.
 
 ### setting up your multimeter
 First thing's first. Plug your probes into your multimeter if necessary. The black probe goes in the port labeled "COM" or "GND" or something similar. The red one goes in the port labeled "mA/Ω/V" or something similar. It'll look something like this:
@@ -81,5 +105,15 @@ Now would be a good time to check the power rails of your breadboard. Connect th
 
 ![power rail jumpers](rail_jumpers.jpg "Don't pee on the third rail")
 
-## your power source
-In this class, we'll use an Arduino microcontroller board as a power supply. We'll also end up using it as a primitive oscilloscope. For now, let's get it set up on a breadboard.
+Generally, after you build a circuit, you should check to make sure your two power rails are not continuous with each other before plugging power in. Also, if for some reason your Arduino wasn't turning on earlier, you should unplug your Arduino, and then use your continuity meter to make sure there isn't a short (a direct connection between to normally unconnected parts of a circuit) between and of the power pins (VCC, Vin, 5V, 3.3V, etc.) and GND. If there is, your computer will shut down power to the USB port and the Arduino will not work.
+
+![multimeter power rail continuity check](multimeter_rail-test-2.jpg "seriously though, power should never be directly connected to ground")
+
+### measuring voltage
+
+### measuring current
+
+### measuring resistance
+
+## all is well
+You should be good to go, so go ahead and get started with [lesson1](../lesson1)
