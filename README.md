@@ -20,7 +20,7 @@ You can keep all this on your computer in one of several ways:
     * What is git? Git is what makes GitHub great. [Learn how to set it up here](https://help.github.com/articles/set-up-git)
 
 ### feedback
-While using this repository, if you find something confusing, contridictory, incorrect, or otherwise questionable, click on that button to the right labeled "Issues" and open up an issue. Your feedback is helpful and much appreciated, and if it's all collected here, it's a nice to-do list for me to fix things.
+While using this repository, if you find something confusing, contridictory, incorrect, or otherwise questionable, click [here or on the "Issues" button](https://github.com/wileycousins-edu/intro_to_circuits/issues) and open up an issue. Your feedback is helpful and much appreciated, and if it's all collected here, it's a nice to-do list for me to fix things.
 
 ## recommended software
 
