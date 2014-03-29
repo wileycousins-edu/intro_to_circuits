@@ -34,7 +34,7 @@ Where i = current in amperes (A), v = voltage in volts (V), and R = resistance i
 
 Two resistors in parallel. This circuit allows us to use both Kirchhoff's Current Law (the current flowing into any node in a circuit must be equal to the current flowing out of the node):
 
-![Kirchhoff's current law](http://www.sciweavers.org/tex2img.php?eq=%20%5Csum_%7Bn%3D1%7D%5EN%20i_%7Bn%7D%20%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0 "the same number of electrons must be leaving a point as are entering it")
+![Kirchhoff's current law](http://bit.ly/P5c8P7 "the same number of electrons must be leaving a point as are entering it")
 
 And Kirchhoff's Voltage Law (the voltage differences across components in a closed loop in a circuit must sum to zero):
 
