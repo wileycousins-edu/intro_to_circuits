@@ -23,7 +23,7 @@ Wire strippers are a tool we will use to strip the plastic sheath off of copper 
 Plus it builds character.
 
 ### getting a length of wire
-here we have a spool of wire. Say hello to the spool of wire. Let's cut a piece that's about an inch off.
+here we have a spool of wire. Say hello to the spool of wire. Let's cut off a piece that's about an inch long.
 
 ![cutting wire](wire_cut.jpg "rocket science")
 
