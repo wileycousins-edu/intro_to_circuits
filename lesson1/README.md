@@ -24,7 +24,7 @@ where the electrons live
 
 A resistor hooked to a power supply. The voltage difference applied across the resistor causes a current to flow through the resistor. This current is determined by Ohm's law:
 
-![ohm's law](http://www.sciweavers.org/tex2img.php?eq=i%3D%20%5Cfrac%7Bv%7D%7BR%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0 "ohm my god an equation")
+![ohm's law](equations/ohms-law.png "ohm my god an equation")
 
 Where i = current in amperes (A), v = voltage in volts (V), and R = resistance in ohms (Ω)
 
@@ -34,11 +34,11 @@ Where i = current in amperes (A), v = voltage in volts (V), and R = resistance i
 
 Two resistors in parallel. This circuit allows us to use both Kirchhoff's Current Law (the current flowing into any node in a circuit must be equal to the current flowing out of the node):
 
-![Kirchhoff's current law](http://www.sciweavers.org/tex2img.php?eq=%20%5Csum_%7Bn%3D1%7D%5EN%20i_%7Bn%7D%20%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0 "the same number of electrons must be leaving a point as are entering it")
+![Kirchhoff's current law](equations/kirchhoff-current.png "the same number of electrons must be leaving a point as are entering it")
 
 And Kirchhoff's Voltage Law (the voltage differences across components in a closed loop in a circuit must sum to zero):
 
-![Kirchhoff's voltage law](http://www.sciweavers.org/tex2img.php?eq=i%3D%20%5Cfrac%7Bv%7D%7BR%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0 "if you walk in any closed loop, you have to end at the same place you started")
+![Kirchhoff's voltage law](equations/kirchhoff-voltage.png "if you walk in any closed loop, you have to end at the same place you started")
 
 By applying these two laws, we know that the voltage across both resistors is equal to the voltage difference across the power supply, and that the current flowing out of the power supply is split between the two resistors. We can find the proportion with which is splits by applying Ohm's Law to each resistor (see above) and letting the algebra work itself out.
 
