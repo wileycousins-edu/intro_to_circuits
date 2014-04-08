@@ -46,7 +46,7 @@ You were given a lot of components. You don't need to know what they all do quit
 
 Also, a lot of your components have very longs legs. These long legs will get in your way while building circuits, so I will usually make you cut them down before putting them in the breadboard. You can use you wire strippers for this. Here is the difference between a cut and uncut part in the breadboard:
 
-![why you should cut your part legs](parts_legs.jpg "cut it out")
+![why you should cut your part legs](images/part-legs.jpg "cut it out")
 
 ## your power source
 In this class, we'll use an Arduino microcontroller board as a power supply. We'll also end up using it as a primitive oscilloscope. For now, let's get it set up on a breadboard.
