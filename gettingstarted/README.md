@@ -51,19 +51,15 @@ Also, a lot of your components have very longs legs. These long legs will get in
 ## your power source
 In this class, we'll use an Arduino microcontroller board as a power supply. We'll also end up using it as a primitive oscilloscope. For now, let's get it set up on a breadboard.
 
-The Arduino board takes power over USB from your computer. This gives us a nice source of electricity to work with. Connect a wire from the pin of the Arduino labeled either "VCC" or "5V", and connect it to a red power rail on your breadboard. This will be our positive voltage source. If you have an Arduino that can be inserted right into a breadboard, do that, and then run the connection from a breadboard hole in that row to the power rail. It will look something like this:
+The Arduino board takes power over USB from your computer. This gives us a nice source of electricity to work with. Connect a wire from the pin of the Arduino labeled either "VCC" or "5V", and connect it to a **red** power rail on your breadboard. This will be our positive voltage source. If you have an Arduino that can be inserted right into a breadboard, do that, and then run the connection from a breadboard hole in that row to the power rail.
 
-![power rail positive connection](rail_positive.jpg "Be positive")
+Now, look for a pin labeled "GND". You might have several; any will work. Connect a "GND" pin to the **blue** power rail. This will be our negative power source, or as we'll call it, our ground. We've effectively connected two ends of a 5V battery to our two voltage rails. Now, whenever we need to plug something into power or ground, we can do it at any point along the breadboard.
 
-Now, look for a pin labeled "GND". You might have several; any will work. Connect a "GND" pin to the blue power rail. This will be our negative power source, or as we'll call it, our ground. We've effectively connected two ends of a 5V battery to our two voltage rails. Now, whenever we need to plug something into power or ground, we can do it at any point along the breadboard.
+![power rail connections](images/arduino-breadboard.jpg "power rails hooked up")
 
-![power rail both connections](rail_positive.jpg "Be positive and negative simultaneously")
+Since it's voltage differences between points that matter, much like defining sea-level as zero altitude, we will define the voltage level at ground to be our zero. We will actually learn about this in Lesson 1. The colors are an arbitrary choice, as well. The convention is that "hot" colors (e.g. red) are positive voltage and "cool" colors (e.g. blue) are ground voltage.
 
-Since it's voltage differences between points that matter, much like defining sea-level as zero altitude, we will define the voltage level at ground to be our zero. We will actually learn about this in Lesson 1.
-
-Now would be a good time to plug your Arduino into your computer and confirm that its power light comes on. If not, make sure that everything is plugged in correctly. If it does look like it and it still doesn't work, ask your teacher.
-
-![arduino on](arduino_on.jpg "it's on like Donkey Kong")
+Now would be a good time to plug your Arduino into your computer and confirm that its power light comes on. If not, make sure that everything is plugged in correctly. If it looks correct and it still doesn't work, ask your teacher.
 
 ## your multimeter
 Your multimeter will be your most valuable tool. It is called a multimeter because it is a meter of multiple things. We'll be using it for four measurements:
