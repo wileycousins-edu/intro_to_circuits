@@ -20,24 +20,24 @@ An important thing to note: I've drawn red and blue lines running the whole way 
 ## wire strippers
 Wire strippers are a tool we will use to strip the plastic sheath off of copper hook-up wire. Why? So we can plug these wires (specifically, about 22 guage wire) into our breadboard to make connections. You can buy jumper cables for this, but cutting your own wires at the right lengths to keep your breadboard circuits clean is way more reliable and way way easier to troubleshoot.
 
+![wire strippers](images/wire-strippers.jpg "not that kind of stripper")
+
 Plus it builds character.
 
 ### getting a length of wire
 here we have a spool of wire. Say hello to the spool of wire. Let's cut off a piece that's about an inch long.
 
-![cutting wire](wire_cut.jpg "rocket science")
+![cutting wire](images/cutting-wire.jpg "rocket science")
 
 Now, insert the wire into the hole labeled "22" or a close number, close the strippers, and pull the wire and strippers away from each other to strip off about a quarter inch of plastic. Also do it on the other end of the wire.
 
-![stripping wire](wire_strip.jpg "not bourbon street")
+![stripping wire](images/stripping-wire.jpg "this is not bourbon street")
 
-![stripped wire](wire_post-strip "nor, weirdly enough, Christina Aguilera")
+![stripped wire](images/stripped-wire.jpg "nor is it, weirdly enough, Christina Aguilera")
 
 Finally, use the pliers built into the stripper to bend the ends of the wire, so you end up with a wire that can be easily plugged into a breadboard.
 
-![bent wire](wire_bent.jpg "yup, it's wire")
-
-![wire in breadboard](wire_breadboard.jpg "yup, it's in the breadboard")
+![wire in breadboard](images/wire-in-breadboard.jpg "yup, it's in the breadboard")
 
 Look how neat and tidy that is. You'll thank me later. Maybe. Or you'll throw a bunch of tiny wires at me.
 
