@@ -72,17 +72,17 @@ Your multimeter will be your most valuable tool. It is called a multimeter becau
 We'll learn about them as class goes on. For now, we will set up the meter and learn how to test continuity. We'll also show how to measure resistance, voltage, and current, but those sections are better off skipped until after lesson 1, and are here so you can come back and review.
 
 ### setting up your multimeter
-First thing's first. Plug your probes into your multimeter if necessary. The black probe goes in the port labeled "COM" or "GND" or something similar. The red one goes in the port labeled "mA/Ω/V" or something similar. It'll look something like this:
+First thing's first. Plug your probes into your multimeter if necessary. The black probe goes in the port labeled "COM" or "GND" or something similar. The red one goes in the port labeled "mA/Ω/V" or something similar. Make sure they're pushed into the ports all the way. It'll look something like this:
 
-![multimeter](multimeter.jpg "probe jacks of all trade")
+![multimeter](images/multimeter.jpg "probe jacks of all trade")
 
-Second thing's second. Take a two pieces of 22 gauge wire (I recommend black and red) about three inches long, strip one end of each about a quarter inch, and the other end about one inch. You'll have two pieces of wire that look similar to this:
+Second thing's second. Take a two pieces of 22 gauge wire (I recommend black and red) about four inches long, strip one end of each about a quarter inch, and the other end about two inches. You'll have two pieces of wire that look similar to this:
 
-![multimeter wires](multimeter_wires.jpg "not spaghetti")
+![multimeter wires](images/probe-wires.jpg "not spaghetti")
 
 Then, wrap the bare, inch long side of the wire around a pointy part of your multimeter (called the **probe**). This pointy thing is what you touch to electric-like part to test them. By attaching wires to them, we make it way easier to plug our multimeter directly into our breadboard like this:
 
-![multimeter in a breadboard](multimeter_in-bread.jpg "shoving probes into holes")
+![multimeter in a breadboard](images/multimeter-in-bread.jpg "shoving probes into holes")
 
 ### measuring continuity
 Continuity is an easy concept. If two parts of a circuit are continuous, there is a connection between them without anything in the may. If there is a bare electrical connection between two points, they are continuous. Switch your multimeter to continuity mode. It'll look something like this on the dial:
