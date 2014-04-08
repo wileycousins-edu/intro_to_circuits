@@ -25,7 +25,7 @@ Wire strippers are a tool we will use to strip the plastic sheath off of copper 
 Plus it builds character.
 
 ### getting a length of wire
-here we have a spool of wire. Say hello to the spool of wire. Let's cut off a piece that's about an inch long.
+Here we have a spool of wire. Say hello to the spool of wire. Let's cut off a piece that's about an inch long.
 
 ![cutting wire](images/cutting-wire.jpg "rocket science")
 
@@ -69,18 +69,18 @@ Your multimeter will be your most valuable tool. It is called a multimeter becau
 * voltage
 * current
 
-We'll learn about them as class goes on. For now, we will set up the meter and learn how to test continuity. We'll also show how to measure resistance, voltage, and current, but those sections are better off skipped until after lesson 1, and are here so you can come back and review.
+We'll learn about them as class goes on. For now, we will set up the meter and learn how to test continuity.
 
 ### setting up your multimeter
-First thing's first. Plug your probes into your multimeter if necessary. The black probe goes in the port labeled "COM" or "GND" or something similar. The red one goes in the port labeled "mA/Ω/V" or something similar. Make sure they're pushed into the ports all the way. It'll look something like this:
+First thing's first: plug your probes into your multimeter if necessary. The black probe goes in the port labeled "COM" or "GND" or something similar. The red one goes in the port labeled "mA/Ω/V" or something similar. Make sure they're pushed in all the way (this may take some force). It'll look something like this:
 
 ![multimeter](images/multimeter.jpg "probe jacks of all trade")
 
-Second thing's second. Take a two pieces of 22 gauge wire (I recommend black and red) about four inches long, strip one end of each about a quarter inch, and the other end about two inches. You'll have two pieces of wire that look similar to this:
+Second thing's second: yake a two pieces of 22 gauge wire (I recommend black and red) about four inches long, strip one end of each about a quarter inch, and the other end about two inches. You'll have two pieces of wire that look similar to this:
 
 ![multimeter wires](images/probe-wires.jpg "not spaghetti")
 
-Then, wrap the long bare side of the wire around a pointy part of your multimeter (called the **probe**). This pointy thing is what you touch to things to test them. By attaching wires to them, we make it way easier to plug our multimeter directly into our breadboard like this:
+Wrap the long bare side of the wire around a pointy part of your multimeter (called the **probe**). This pointy thing is what you touch things with to test them. By attaching wires to them, we make it way easier to plug our multimeter directly into our breadboard like this:
 
 ![multimeter in a breadboard](images/multimeter-in-bread.jpg "shoving probes into holes")
 
@@ -89,10 +89,12 @@ Continuity is an easy concept. If two parts of a circuit are continuous, there i
 
 ![multimeter continuity mode](images/multimeter-continuity.jpg "some continuity pun; there's gotta be at least one")
 
-Take your two fancy, breadboard friendly multimeter probes, and stick them into two holes that I told you earlier are connected. You'll hear a beep, or see something on the screen if your multimeter doesn't have a beeper. Now try it again between two holes that aren't connected. The screen will likely read 1 or other number, and there will be no beep.
+Take your two fancy, breadboard friendly multimeter probes, and stick them into two holes that I told you earlier are connected. You'll hear a beep (if your multimeter has a beeper) and see a very small number on the screen. Now try it again between two holes that aren't connected. The screen will likely read 1 or a large number, and there will be no beep.
 
+#### continuous
 ![multimeter continuous](images/multimeter-continuous.jpg "I'm going to continue writing these captions")
 
+#### discontinuous
 ![multimeter discontinuous](images/multimeter-discontinuous.jpg "I will discontinue when I get bored")
 
 Now would be a good time to check the power rails of your breadboard. Connect the multimeter between the two halves of each power rail and see if it beeps. If it doesn't beep, you will probably want to add jumper wires to get continuous rails.
@@ -101,7 +103,7 @@ Now would be a good time to check the power rails of your breadboard. Connect th
 
 ![power rail jumpers](images/rail-jumpers.jpg "Don't pee on the third rail")
 
-Generally, after you build a circuit, you should check to make sure your two power rails are not continuous with each other before plugging power in. Also, if for some reason your Arduino wasn't turning on earlier, you should unplug your Arduino, and then use your continuity meter to make sure there isn't a short (a direct connection between to normally unconnected parts of a circuit) between and of the power pins (VCC, Vin, 5V, 3.3V, etc.) and GND. If there is, your computer will shut down power to the USB port and the Arduino will not work.
+Generally, after you build a circuit, you should check to make sure your two power rails are not continuous with each other before plugging power in. For example, if for some reason your Arduino wasn't turning on earlier, you should unplug your Arduino and then use your continuity meter to make sure there isn't a short (a direct connection between two normally unconnected parts of a circuit) between and of the power pins (VCC, Vin, 5V, 3.3V, etc.) and GND. If there is, your computer will shut down power to the USB port and the Arduino will not work.
 
 ![multimeter power rail continuity check](images/rail-test-2.jpg "seriously though, power should never be directly connected to ground")
 
