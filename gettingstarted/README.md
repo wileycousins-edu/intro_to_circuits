@@ -80,30 +80,30 @@ Second thing's second. Take a two pieces of 22 gauge wire (I recommend black and
 
 ![multimeter wires](images/probe-wires.jpg "not spaghetti")
 
-Then, wrap the bare, inch long side of the wire around a pointy part of your multimeter (called the **probe**). This pointy thing is what you touch to electric-like part to test them. By attaching wires to them, we make it way easier to plug our multimeter directly into our breadboard like this:
+Then, wrap the long bare side of the wire around a pointy part of your multimeter (called the **probe**). This pointy thing is what you touch to things to test them. By attaching wires to them, we make it way easier to plug our multimeter directly into our breadboard like this:
 
 ![multimeter in a breadboard](images/multimeter-in-bread.jpg "shoving probes into holes")
 
 ### measuring continuity
 Continuity is an easy concept. If two parts of a circuit are continuous, there is a connection between them without anything in the may. If there is a bare electrical connection between two points, they are continuous. Switch your multimeter to continuity mode. It'll look something like this on the dial:
 
-![multimeter continuity mode](multimeter_continuity.jpg "some continuity pun; there's gotta be at least one")
+![multimeter continuity mode](images/multimeter-continuity.jpg "some continuity pun; there's gotta be at least one")
 
 Take your two fancy, breadboard friendly multimeter probes, and stick them into two holes that I told you earlier are connected. You'll hear a beep, or see something on the screen if your multimeter doesn't have a beeper. Now try it again between two holes that aren't connected. The screen will likely read 1 or other number, and there will be no beep.
 
-![multimeter continuous](multimeter_continuous.jpg "I'm going to continue writing these captions")
+![multimeter continuous](images/multimeter-continuous.jpg "I'm going to continue writing these captions")
 
-![multimeter discontinuous](multimeter_discontinuous.jpg "I will discontinue when I get bored")
+![multimeter discontinuous](images/multimeter-discontinuous.jpg "I will discontinue when I get bored")
 
 Now would be a good time to check the power rails of your breadboard. Connect the multimeter between the two halves of each power rail and see if it beeps. If it doesn't beep, you will probably want to add jumper wires to get continuous rails.
 
-![multimeter power rail testing](multimeter_rail-test.jpg "I got the power")
+![multimeter power rail testing](images/rail-test.jpg "I got the power")
 
-![power rail jumpers](rail_jumpers.jpg "Don't pee on the third rail")
+![power rail jumpers](images/rail-jumpers.jpg "Don't pee on the third rail")
 
 Generally, after you build a circuit, you should check to make sure your two power rails are not continuous with each other before plugging power in. Also, if for some reason your Arduino wasn't turning on earlier, you should unplug your Arduino, and then use your continuity meter to make sure there isn't a short (a direct connection between to normally unconnected parts of a circuit) between and of the power pins (VCC, Vin, 5V, 3.3V, etc.) and GND. If there is, your computer will shut down power to the USB port and the Arduino will not work.
 
-![multimeter power rail continuity check](multimeter_rail-test-2.jpg "seriously though, power should never be directly connected to ground")
+![multimeter power rail continuity check](images/rail-test-2.jpg "seriously though, power should never be directly connected to ground")
 
 ### measuring voltage (learned in lesson 1)
 
