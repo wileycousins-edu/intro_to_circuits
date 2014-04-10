@@ -57,4 +57,7 @@ If you only hook up one end of the resistor and the wiper to your circuit, you'v
 
 ![circuit 3-3](3-3_rheostat_schem.png "variable resistor")
 
-As you turn the pot, you will notice your ohmmeter measuring from about 0 to 100k for the 100k pot, or 10k for the 10k pot. This configuration is useful when you're building a circuit and need a resistor, but you're not sure what value that resistor whould be. In that case, you can hook in a pot as a rheostat and find the optimal value for the circuit. We will do this later in the lesson.
+As you turn the pot, you will notice your ohmmeter measuring from about 0 to 100k for the 100k pot, or 10k for the 10k pot. This configuration is useful when you're building a circuit and need a resistor, but you're not sure what value that resistor should be. In that case, you can hook in a pot as a rheostat and find the optimal value for the circuit. We will do this later in the lesson.
+
+## transistors (the fun stuff)
+Transistors (sometimes called trannies, which I will not ever do), are the building block of 
