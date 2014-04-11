@@ -78,3 +78,5 @@ You have five NPN transistors with the model number 2N3904. You can see this wri
 ![npn transistor](images/npn-transistor.jpg)
 
 The symbol for an NPN transistor is this:
+
+![npn transistor symbol](http://upload.wikimedia.org/wikipedia/commons/c/cb/BJT_NPN_symbol_%28case%29.svg "NPN transistor symbol from Wikipedia")
