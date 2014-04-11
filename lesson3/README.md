@@ -80,3 +80,25 @@ You have five NPN transistors with the model number 2N3904. You can see this wri
 The symbol for an NPN transistor is this:
 
 ![npn transistor symbol](http://upload.wikimedia.org/wikipedia/commons/c/cb/BJT_NPN_symbol_%28case%29.svg "NPN transistor symbol from Wikipedia")
+
+The E, B, and C stand for Emitter, Base, and Collector, respectively. Where do those names come from? Who cares? I forget. Probably something about holes and electrons. [You might be able to find out here](http://en.wikipedia.org/wiki/Bipolar_junction_transistor). Regardless of all that, take note of the arrow on the emitter pin and the direction (outwards) that it's pointing.
+
+Do you remember that time I told you that transistors were like valves? It was a whole eighteen lines (in my text editor) ago. But, it's still true. The current that an NPN transistor valve controls is the current flowing into the collector and out of the emitter.
+
+What determines how "open" the "valve" is? The current flowing into the base. More specifically:
+
+![NPN BJT equation](equations/npn-bjt-control.png)
+
+Where i_CE is the current flowing from the collector to emitter, i_BE is the current flowing into the base (and out the emitter), and h_FE is the gain of the transistor.
+
+### datasheets
+
+Where do we find the gain? From the **datasheet**. Datasheets are big sheets of data about specific parts. You find them by googling the part number and then clicking the first PDF link you see. Try it now with your NPN BJT part number (2N3904).
+
+You'll hopefully find [something like this](http://www.fairchildsemi.com/ds/2N/2N3904.pdf).
+
+This document looks pretty daunting! Don't worry, I have a trick. If you see something you don't understand, ignore it. Eventually, you'll need more bits of information, and you'll learn about them specifically then. The way to get good at reading datasheets is to read a lot of datasheets. And the way to read a lot of datasheets is to not get overwhelmed by all the data.
+
+Skim through your datasheet and see if you can find what the gain for your transistor is. You'll find several numbers in a table, all corresponding to different "test conditions". You can use these test conditions to decide what the gain is likely to be for a circuit you design.
+
+For simplicity's sake, at the moment we're gonna assume the gain is always 100. This assumption turns out to work a lot of the time, for a lot of transistors, but it isn't always true.
