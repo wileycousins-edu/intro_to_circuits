@@ -6,15 +6,15 @@ Subjects for future classes are tentative and dependent on the progress we make.
 
 **If you miss a class, review the posted material and come to the next class 30 min early with questions for a recap session.**
 
-| Lesson | Date         | Time              | Subjects                                                                |
-| ------ | ------------ | ----------------- | ----------------------------------------------------------------------- |
-| 1      | Sun,  Mar 16 | 1 PM - 3 PM       | Voltage, current, Kirchhoff's Laws, Ohm's Law, breadboards, multimeters |
-| 2      | Sun,  Mar 23 | 3:30 PM - 5:30 PM | Capacitors, diodes, and light-emitting diodes                           |
-| 3      | Sun,  Mar 30 | 1 PM - 3 PM       | Transistors, phototransistors, potentiometers, and circuit blocks       |
-| 4      | Sun,  Apr 6  | 1 PM - 3 PM       | Operational amplifiers                                                  |
-| 5      | Sun,  Apr 13 | 1 PM - 3 PM       | Operational amplifiers (continued)                                      |
+| Lesson | Date         | Time              | Subjects                                                                | Materials
+| ------ | ------------ | ----------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------
+| 1      | Sun,  Mar 16 | 1 PM - 3 PM       | Voltage, current, Kirchhoff's Laws, Ohm's Law, breadboards, multimeters | [gettingstarted](gettingstarted), [lesson1](lesson1)
+| 2      | Sun,  Mar 23 | 3:30 PM - 5:30 PM | Capacitors, diodes, and light-emitting diodes                           | [lesson2](lesson2)
+| 3      | Sun,  Mar 30 | 1 PM - 3 PM       | Potentiometers and NPN bipolar-junction transistors / phototransistors  | [potentiometers](potentiometers), [transistors](transistors)
+| 4      | Sun,  Apr 6  | 1 PM - 3 PM       | PNP BJTs, motors, and the h-bridge circuit                              | [transistors](transistors), [h-bridge](h-bridge)
+| 5      | Sun,  Apr 13 | 1 PM - 3 PM       | The h-bridge circuit (continued)                                        | [h-bridge](h-bridge)
 | 6      | Sun,  Apr 20 | 1 PM - 3 PM       | 555 chips, waveform generation, and speakers                            |
-| 7      | Sun,  Apr 27 | 1 PM - 3 PM       | Optoisolation, h-bridge circuits, and motors                            |
+| 7      | Sun,  Apr 27 | 1 PM - 3 PM       | Operational amplifiers                                                  |
 | 8      | Sun,  May 4  | 1 PM - 3 PM       | Binary and introduction to digital logic                                |
 | 9      | Sun,  May 11 | 1 PM - 3 PM       | Digital logic continued and flip-flops                                  |
 | 10     | Sun,  May 18 | 1 PM - 3 PM       | Binary coded decimals, BCD line decoders, and shift registers           |
@@ -23,8 +23,10 @@ Subjects for future classes are tentative and dependent on the progress we make.
 
 ## how to use this repository
 
-* General tool setup and use lives in `gettingstarted`
-* Circuits and presentations from each lesson live in `lesson1,2,etc`
+* General tool setup and use lives in [gettingstarted](gettingstarted)
+* Circuits and component lessons live in their respective directories
+    * e.g. information about transistors lives in [transistors](transistors)
+    * the first two lessons have their own directories: [lesson1](lesson1) and [lesson2](lesson2)
 
 ### lesson recaps on google drive
 1. [lesson 1 recap](https://docs.google.com/presentation/d/15GSJ7vIjcBHzid15Rd07gUInJye-16uV2sa6j8g2wJ4/edit?usp=sharing)
