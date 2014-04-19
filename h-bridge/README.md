@@ -6,7 +6,24 @@ If we have a motor, we often want to be able to make that motor go either forwar
 
 **An h-bridge allows us to send current in either direction through a motor to change its rotational direction.**
 
-## what is an h-bridge?
+## what does an h-bridge look like?
+An h-bridge is a series of four switches arranged around a motor like so:
+
+![h-bridge](images/hbridge_wikipedia.png "an h-bridge")
+
+Source: Cyril Buttay, CC-BY-SA 2.5,  http://en.wikipedia.org/wiki/File:H_bridge.svg
+
+By alternation which switches are open and which are closed, the motor will turn clockwise or counterclockwise.
+
+![h-bridge states](images/hbridge-states_wikipedia.png "turning the motor")
+
+Source: Cyril Buttay, CC-BY-SA 2.5,  http://en.wikipedia.org/wiki/File:H_bridge_operating.svg
+
+<figure>
+<img src="images/hbridge-states_wikipedia.png" alt="h-bridge states">
+<figcaption>Source: Cyril Buttay, CC-BY-SA 2.5,  http://en.wikipedia.org/wiki/File:H_bridge_operating.svg</figcaption>
+</figure>
+
 
 ## building an h-bridge
 
