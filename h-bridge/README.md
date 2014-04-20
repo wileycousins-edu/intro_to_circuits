@@ -9,7 +9,7 @@ If we have a motor, we often want to be able to make that motor go either forwar
 ## what does an h-bridge look like?
 An h-bridge is a series of four switches arranged around a motor like so:
 
-![h-bridge](images/hbridge_wikipedia.png "an h-bridge")
+![h-bridge with switches][hbridge_wikipedia]
 
 Source: Cyril Buttay, CC-BY-SA 2.5,  http://en.wikipedia.org/wiki/File:H_bridge.svg
 
@@ -64,13 +64,44 @@ Now, we're also going to **add a protection diode to the transistor** to protect
 #### circuit hb 1
 [example breadboard layout][hb_1_bb]
 
-![circuit hb_1][hb_1_schem]
+![circuit hb 1][hb_1_schem]
 
+With this circuit, if we press the button, the motor should turn.
 
 ### step 2 - add an NPN transistor at the low side
 
-### step 3 - re
+Now, we will add an NPN transistor (2N3904) as a low side switch. The resulting circuit will be a "half h-bridge".
 
+Since we are using matching PNP and NPN BJTs (2N3906 and 2N3904, respectively), we don't have to go through all the transistor math again; matching BJTs are designed to have matching properties. So the gain, saturated voltage drops, etc will have the same magnitude. So, using the same value resistor with a 2N3904 gives us:
+
+#### circuit hb 2
+[example breadboard layout][hb_2_bb]
+
+![circuit hb 2][hb_2_schem]
+
+With this circuit, the motor will only turn if we hold down both buttons.
+
+Pay close attention to the direction of the protection diodes. They are alligned so that they are pointing in the opposite direction of current flow through the transistors. When the transistors are shut off (the switch is open), the diodes will allow excess current from the motor to flow back into the positive end of the power supply rather than letting it try to force its way through a diode.
+
+### step 3 - copy / paste for a full h-bridge
+Now we just have to duplicate our high and low side transistor switches to give us a full h-brige.
+
+#### circuit hb 3
+[example breadboard layout][hb_3_bb]
+
+![circuit hb 3][hb_3_schem]
+
+Compare this to the schematic from the beginning with just switches:
+
+![h-bridge with switches][hbridge_wikipedia]
+
+Looking back at our original truth table: pushing down S1 and S4 will make the motor turn one way, and pushing down S2 and S3 will make it turn the other way. **DO NOT PRESS S1 AND S2 AT THE SAME TIME. DO NOT PRESS S3 AND S4 AT THE SAME TIME**. This will cause a shoot through and possibly ruin your transistors.
+
+[hbridge_wikipedia]: images/hbridge_wikipedia.png "h-bridge theory"
 [2N3906]: https://www.fairchildsemi.com/ds/2N/2N3906.pdf "2N3906 datasheet"
 [hb_1_bb]: breaboard/hb_1_bb.png
 [hb_1_schem]: hb_1_schem.png
+[hb_2_bb]: breadboard/hb_2_bb.png
+[hb_2_schem]: hb_2_schem.png
+[hb_3_bb]: breadboard/hb_3_bb.png
+[hb_3_schem]: hb_3_schem.png
