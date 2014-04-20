@@ -102,8 +102,8 @@ Having four switches to control an h-bridge isn't super convenient. Is there any
 
 Yes there is.
 
-### step 4 - add an NPN to the high side switches
-To make the motor move in either direction, we need to activate a PNP and an NPN transistor. Unfortunately, to turn a PNP on, we need to pull the base lower than the emitter, while to turn an NPN on, we need to pull the base higher than the emitter. Current needs to flow out of the base for a PNP, and into the base for an NPN. If only we could use an NPN for those high side switches, we could tie the bases together and use one switch.
+### add an NPN to the high side switches
+With our current circuit, to make the motor move we need to activate a PNP and an NPN transistor. Unfortunately, to turn a PNP on, we need to pull the base lower than the emitter, while to turn an NPN on, we need to pull the base higher than the emitter. Current needs to flow out of the base for a PNP, and into the base for an NPN. If only we could use an NPN for those high side switches, we could tie the bases together and use one switch.
 
 Unfortunately, NPNs do not function well as high-side switches. This leaves us wanting to control the high-side switch with an NPN for logic reasons, but needing the load switch to be a PNP for electrical reasons. What's the solution?
 
@@ -113,7 +113,7 @@ We can control the PNP with an NPN. Let's try adapting circuit hb 1:
 
 ![circuit hb 1][hb_1_schem]
 
-When we push down S1, we allow current to flow into Q1's emitter and out of the base, activating the emitter to collector junction. We know from our previous calculations that i_R1 is going to be about 12mA. So let's replace S1 with a NPN transistor that will allow more than 12mA:
+When we push down S1, we allow current to flow into Q1's emitter and out of the base, activating the emitter to collector junction. We know from our previous calculations that i_R1 is going to be about 12mA. So let's replace S1 with a NPN transistor that will allow more than 12mA to flow to ground:
 
 #### circuit hb 1 modified
 
@@ -123,7 +123,7 @@ You don't need to build this one; in fact, please avoid tearing up your existing
 
 ![modified circuit hb 1][hb_1_modified_schem]
 
-Notice the 10kΩ resistor on the base of the NPN transistor. Is this going to work? Use the 2N3904 datasheet and see if you can solve for the currents.
+Now, instead of connecting to ground, our switch connects to Vcc in order to activate the NPN. This, in turn, activates the PNP. Notice the 10kΩ resistor on the base of the NPN transistor. Is this going to work? Use the 2N3904 datasheet and see if you can solve for the currents.
 
 Now, if we apply these modifications to our full h-bridge:
 
