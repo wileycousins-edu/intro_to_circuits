@@ -19,17 +19,19 @@ By alternating which switches are open and which are closed, the motor will turn
 
 Source: Cyril Buttay, CC-BY-SA 2.5,  http://en.wikipedia.org/wiki/File:H_bridge_operating.svg
 
-We can build what's called a "truth table" to examine the different possible states of an h-bridge. In this truth table, a '1' represents a closed switch, a '0' represents and open switch, and an 'X' represents "doesn't matter".
+We can build what's called a "truth table" to examine the different possible states of an h-bridge. In this truth table, a '1' represents a closed switch, a '0' represents and open switch, and an 'x' represents "doesn't matter".
+
 
 | S1 | S2 | S3 | S4 | Result                  |
 | -- | -- | -- | -- | ----------------------- |
 | 0  | 0  | 0  | 0  | Motor coasts            |
-| 1  | 1  | X  | X  | Shoot through (**bad**) |
-| X  | X  | 1  | 1  | Shoot through (**bad**) |
+| 1  | 1  | x  | x  | Shoot through (**bad**) |
+| x  | x  | 1  | 1  | Shoot through (**bad**) |
 | 1  | 0  | 1  | 0  | Motor brakes (fine)     |
 | 0  | 1  | 0  | 1  | Motor brakes (fine)     |
 | 1  | 0  | 0  | 1  | Clockwise               |
 | 0  | 1  | 1  | 0  | Counterclockwise        |
+
 
 First, let me draw your attention to the shoot through conditions. A shoot through means that the current is going to shoot straight from Vin to ground, missing the motor entirely, and probably damaging your circuit. Shoot through should be avoided.
 
