@@ -60,6 +60,7 @@ This list will grow as the class progresses. My apologies if it is only Wikipedi
 * http://en.wikipedia.org/wiki/Ohms_law
 * [Capacitors in Series and Parallel](http://farside.ph.utexas.edu/teaching/302l/lectures/node46.html)
 * https://learn.sparkfun.com/tutorials/diodes/all
+* http://www.electronics-tutorials.ws/transistor/tran_4.html
 
 ## thanks
 Thanks to Mike Mitterer, whose [Fritzing multimeter](https://github.com/MikeMitterer/fritzing-multimeter) is used in the fritzing circuits for this class.
