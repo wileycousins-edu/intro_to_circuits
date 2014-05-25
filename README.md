@@ -16,10 +16,10 @@ Subjects for future classes are tentative and dependent on the progress we make.
 | 6      | Sun,  Apr 20 | 1 PM - 3 PM       | 555 chips, waveform generation, and speakers                            |
 | 7      | Sun,  May 4  | 1 PM - 3 PM       | Operational amplifiers                                                  |
 | 8      | Sun,  May 4  | 3 PM - 5 PM       | Operational amplifiers (continued)                                      |
-| 9      | Sun,  May 11 | 3 PM - 5 PM       | Introduction to digital logic                                           |
-| 10     | Sun,  May 25 | 1 PM - 3 PM       | Digital logic continued and flip-flops                                  |
-| 11     | Sun,  May 25 | 3 PM - 5 PM       | Binary coded decimals, BCD line decoders, and shift registers           |
-| 12     | Sun,  Jun 1  | 1 PM - 3 PM       | Build a class project and introduction to microcontrollers              |
+| 9      | Sun,  May 11 | 3 PM - 5 PM       | 555 PWM generator with op-amps                                          |
+| 10     | Sun,  May 25 | 1 PM - 3 PM       | Digital logic and flip-flops                                            |
+| 11     | Sun,  Jun 1  | 1 PM - 3 PM       | Binary coded decimals, BCD line decoders, and shift registers           |
+| 12     | Sun,  Jun 8  | 1 PM - 3 PM       | Build a class project and introduction to microcontrollers              |
 
 ## how to use this repository
 
